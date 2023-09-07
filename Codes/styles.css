@@ -1,0 +1,23 @@
+:root{
+    --orange-color: orange;
+    --blue-color: blue;
+}
+div  p::first-letter{
+    color: var(--blue-color);
+}
+
+.even::first-letter{
+    color: var(--orange-color);
+}
+
+div  p::before{
+    content: "Welcome";
+}
+
+div ~ p::after{
+    content: "Bye";
+}
+
+div  p::first-line{
+    font-size: 20px;
+}
