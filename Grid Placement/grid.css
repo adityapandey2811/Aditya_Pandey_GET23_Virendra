@@ -1,11 +1,13 @@
 .item1 {
     grid-column-start: 1;
     grid-column-end: 3;
+    background-color: firebrick;
 }
 
 .item2 {
     grid-column-start: 3;
     grid-column-end: 4;
+    background-color: aqua;
 }
 
 .item3 {
@@ -13,6 +15,7 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
+    background-color: blueviolet;
 }
 
 .item4 {
@@ -20,11 +23,13 @@
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 3;
+    background-color: chartreuse;
 }
 
 .item5 {
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: yellow;
 }
 
 .item6 {
@@ -32,6 +37,7 @@
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    background-color: teal;
 }
 
 .item7 {
@@ -39,6 +45,7 @@
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
+    background-color: silver;
 }
 
 .item8 {
@@ -46,6 +53,7 @@
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 4;
+    background-color: royalblue;
 }
 
 .container {
@@ -54,9 +62,12 @@
 }
 
 .container>div {
-    background-color: green;
     text-align: center;
     font-size: 30px;
     border: 2px solid black;
     justify-content: center;
+}
+
+div {
+    padding: 40px 0;
 }
