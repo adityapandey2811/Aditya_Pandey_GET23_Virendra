@@ -10,6 +10,6 @@ class ObjectCreator {
     }
 }
 
-const myObject = new ObjectCreator("Parwinder");
-console.log(myObject.name); // Parwinder
-console.log(myObject.sayMyName()); // Parwinder
+const myObject = new ObjectCreator("Aditya");
+console.log(myObject.name);
+console.log(myObject.sayMyName());
