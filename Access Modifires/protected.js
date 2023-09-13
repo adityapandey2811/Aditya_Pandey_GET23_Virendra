@@ -11,5 +11,5 @@ class NameGenerator {
 }
 
 let nameGenerator = new NameGenerator("John");
-console.log(`My name is ${nameGenerator.name}`); // My name is John
-nameGenerator.name = "Jane"; // Cannot assign to 'name' because it is a read-only property.
+console.log(`My name is ${nameGenerator.name}`);
+nameGenerator.name = "Jane";
