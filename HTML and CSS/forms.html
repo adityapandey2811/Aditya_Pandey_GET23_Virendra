@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Register
+    </h1>
+
+    <form action="#">
+        <div class="full-name">
+            <label for="name">Full Name*: </label>
+            <input type="text" id="name" name="first" placeholder="First Name">
+            <input type="text" id="name" name="last" placeholder="First Name">
+        </div>
+        <br>
+        <div class="address">
+            <label for="address">Address: </label>
+            <textarea name="Address" id="address" cols="20" rows="5"></textarea>
+        </div>
+        <br>
+        <div class="email">
+            <label for="mail">Email*: </label>
+            <input type="text" placeholder="Email" id="mail">
+        </div>
+        <br>
+        <div class="phone">
+            <label for="phone">Phone*: </label>
+            <input type="number" placeholder="Phone" id="phone">
+        </div>
+        <br>
+        <div class="gender">
+            <label for="gender">Gender*: </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div class="hobbies">
+            <label for="hobbies">Hobbies</label>
+            <br>
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="cricket" id="cricket">
+            <br>
+            <label for="Movies">Movies</label>
+            <input type="checkbox" name="Movies" id="Movies">
+            <br>
+            <label for="Hockey">Hockey</label>
+            <input type="checkbox" name="Hockey" id="Hockey">
+            <br>
+        </div>
+        <br>
+        <div class="languages">
+            <label for="Language">Languages: </label>
+            <select name="Language" id="Language" multiple>
+                <option value="Eng">Eng</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Sanskrit">Sanskrit</option>
+                <option value="Prakrit">Prakrit</option>
+            </select>
+        </div>
+        <br>
+        <div class="skills-1">
+            <label for="Skills">Skills*:</label>
+            <select name="Skills" id="Skills">
+                <option value="select">Select Skills</option>
+                <option value="C++">C++</option>
+                <option value="C">C</option>
+                <option value="Java">Java</option>
+                <option value="Kotlin">Kotlin</option>
+            </select>
+        </div>
+        <br>
+        <div class="country-1">
+            <label for="country">Country*:</label>
+            <select name="country" id="country">
+                <option value="India">Select Country</option>
+                <option value="India">India</option>
+                <option value="India">USA</option>
+                <option value="India">Nepal</option>
+                <option value="India">UK</option>
+            </select>
+        </div>
+        <br>
+        <div class="country-select-1">
+            <label for="country-select">Select Country: </label>
+            <input list="select-country" id="country-select" name="country-select" />
+            <datalist id="select-country">
+                <option value="India"></option>
+                <option value="USA"></option>
+                <option value="UK"></option>
+                <option value="Nepal"></option>
+            </datalist>
+        </div>
+        <br>
+        <div class="dob">
+            <label for="date">Date Of Birth: </label>
+            <input type="date" id="date">
+        </div>
+        <br>
+        <div class="file-upload">
+            <label for="file">Upload: </label>
+            <input type="file" id="file">
+        </div>
+        <br>
+        <div class="pass">
+            <label for="password">Password: </label>
+            <input type="password" id="password">
+        </div>
+        <br>
+        <div class="cur-pass">
+            <label for="cur-password">Current Password: </label>
+            <input type="password" id="cur-password">
+        </div>
+        <br>
+        <div class="actions">
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+
+    <!-- <a href="https://www.sunlife.com" target="_blank">Sun Life Financial</a> -->
+    <!-- <script src="index.js"></script> -->
+</body>
+
+</html>
